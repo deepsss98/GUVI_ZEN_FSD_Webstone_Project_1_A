@@ -1,7 +1,7 @@
 import {countryCodes} from "./countrycode.js"; // File imported to display name country name since the API returns only country code
 
 const body=document.getElementById("body");
-body.setAttribute("style","background-image: linear-gradient(to right top, #12eee0, #00ddff, #00c4ff, #57a2ff, #bd74f2, #c863de, #d051c8, #d53eb2, #b554c8, #8e65d5, #5f72db, #167ad8);height: 130vh !important;");
+body.setAttribute("style","background-image: linear-gradient(to right top, #12eee0, #00ddff, #00c4ff, #57a2ff, #bd74f2, #c863de, #d051c8, #d53eb2, #b554c8, #8e65d5, #5f72db, #167ad8);background-attachment:fixed;");
 
 const div=document.createElement("div");
 div.classList.add("container")
